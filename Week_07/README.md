@@ -58,6 +58,7 @@ find(x):找到元素x所在的集合的代表，该操作也可以用于判断�
 
 ### 代码模板
 
+```
 class UnionFind{
     constructor(n){
         this.count=n;
@@ -82,7 +83,7 @@ class UnionFind{
         this.count--;
     }  
 }
-
+```
 
 # 高级搜索
 ## 剪枝
